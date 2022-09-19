@@ -1,8 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import './providers/question.dart';
-import './optionWidget.dart';
+import '../providers/question.dart';
 import 'package:provider/provider.dart';
 
 class FormMaker extends StatefulWidget {
