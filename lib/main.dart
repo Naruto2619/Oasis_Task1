@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(
           create: (ctx) => Questions([
-            Question("title", "string", [Option('Option', 1)])
+            Question("Enter the question", "type", [Option('Option', 1)])
           ], "1"),
         )
       ],
